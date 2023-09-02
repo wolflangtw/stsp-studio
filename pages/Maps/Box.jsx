@@ -12,7 +12,7 @@ export default function Box({ title, desc, type, version, multiplayer, link, dif
 
     return (
         <div className={styles.world1} onClick={handleBoxClick}>
-            <Image layout="fixed" placeholder="blur" blurDataURL="/stsp.webp" loading="eager" alt="img" src={img} id="img" width="405" height="250"/>
+            <Image layout="fixed" priority={true} placeholder="blur" blurDataURL="/stsp.webp" loading="eager" alt="img" src={img} id="img" width="405" height="250"/>
             <h2>{title}</h2>
             <span className={styles.diffent}>
                 <p>難易度: {diffent}</p>

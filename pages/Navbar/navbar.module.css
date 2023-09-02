@@ -28,3 +28,14 @@
 .navbar li:nth-child(1):hover{
     background-color: red;
 }
+@media only screen and (max-width: 540px) {
+    .navbar li {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 465px) {
+    .navbar li {
+        font-size: 2px;
+        padding: 5px 10px;
+    }
+}

@@ -24,11 +24,6 @@ export default function About() {
                 <meta property="og:site_name" content="STSP Studio" />
             </Head>
             <Navbar />
-            {/* <Link href="/" passHref>
-                <div className={styles.back}>
-                    回到首頁
-                </div>
-            </Link> */}
             <div className={styles.main}>
                 <h1>關於我們</h1>
             </div>
