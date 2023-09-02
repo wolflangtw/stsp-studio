@@ -50,8 +50,8 @@ export default function Boat() {
                 <h3>生成結果</h3>
                 <Image layout="fixed" placeholder="blur" blurDataURL="/stsp.webp" loading="eager" src={f} width={600} height={300} alt="生成結果"></Image>
                 <h3>教學影片</h3>
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/b8hQxfFFlKU" title="[地圖發布] [急速競飆] (還需要優化)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/dSzbjDKBStk" title="[急速競飆] 更正版!! 正式發布!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe layout="fixed" placeholder="blur" width="600" height="400" src="https://www.youtube.com/embed/b8hQxfFFlKU" title="[地圖發布] [急速競飆] (還需要優化)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe layout="fixed" placeholder="blur" width="600" height="400" src="https://www.youtube.com/embed/dSzbjDKBStk" title="[急速競飆] 更正版!! 正式發布!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <hr/>
             <h2>最後<br/>這是一張耗時常1個禮拜做出來的地圖 <br/>地圖啟發: 某天玩別人的冰船地圖就開始在想 地圖能不能給玩家自行編輯跑道的功能<br/>所以此地圖誕生了地圖<br/>特點: 玩家可以用10種不同的賽道 拼出自身理想的賽道與朋友一起在自己做的賽道上奔馳</h2>
