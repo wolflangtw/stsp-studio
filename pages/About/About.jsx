@@ -9,6 +9,7 @@ const wolf = '/users/wolf.webp';
 const wwzai = '/users/wwzai.webp';
 const lei = '/users/lei.webp';
 const stare = '/users/stare.webp';
+const paper = '/users/paper.webp';
 
 export default function About() {
     return (
@@ -44,30 +45,38 @@ export default function About() {
                     <Image loading="eager" src={wolf} alt="wolf" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>狼狼</h1>
-                        <p>貢獻: 網站、Discord群管理、地圖製作</p>
+                        <p>貢獻: 指揮官、網站、地圖製作</p>
                     </div>
                 </div>
                 <div className={styles.box2}>
+                    <Image loading="eager" src={paper} alt="paper_cricel" width={200} height={200}></Image>
+                    <div class={styles.info}>
+                        <h1>紙圓</h1>
+                        <p>貢獻: 副指揮官、地圖製作大師</p>
+                    </div>
+                </div>
+                <div className={styles.box1}>
                     <Image loading="eager" src={wwzai} alt="wwzai" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>旺旺仔</h1>
                         <p>貢獻: Discord群管理、設計師</p>
                     </div>
                 </div>
-                <div className={styles.box1}>
+                <div className={styles.box2}>
                     <Image loading="eager" src={lei} alt="lei_sharp" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>雷霆鋒利</h1>
                         <p>貢獻: 地圖創作</p>
                     </div>
                 </div>
-                <div className={styles.box2}>
+                <div className={styles.box1}>
                     <Image loading="eager" src={stare} alt="stare" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>黑夢</h1>
                         <p>貢獻: Minecraft伺服器空間、付費插件</p>
                     </div>
                 </div>
+                <br/>
             </div>
         </div>
     );
