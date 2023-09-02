@@ -45,35 +45,35 @@ export default function About() {
                     <Image loading="eager" src={wolf} alt="wolf" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>狼狼</h1>
-                        <p>貢獻: 指揮官、網站、地圖製作</p>
+                        <p>指揮官、網站、地圖製作新手</p>
                     </div>
                 </div>
                 <div className={styles.box2}>
                     <Image loading="eager" src={paper} alt="paper_cricel" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>紙圓</h1>
-                        <p>貢獻: 副指揮官、地圖製作大師</p>
+                        <p>副指揮官、地圖製作大師</p>
                     </div>
                 </div>
                 <div className={styles.box1}>
                     <Image loading="eager" src={wwzai} alt="wwzai" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>旺旺仔</h1>
-                        <p>貢獻: Discord群管理、設計師</p>
+                        <p>暫時副指揮官、設計師</p>
                     </div>
                 </div>
                 <div className={styles.box2}>
                     <Image loading="eager" src={lei} alt="lei_sharp" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>雷霆鋒利</h1>
-                        <p>貢獻: 地圖創作</p>
+                        <p>地圖創作</p>
                     </div>
                 </div>
                 <div className={styles.box1}>
                     <Image loading="eager" src={stare} alt="stare" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>黑夢</h1>
-                        <p>貢獻: Minecraft伺服器空間、付費插件</p>
+                        <p>贊助最多的</p>
                     </div>
                 </div>
                 <br/>
