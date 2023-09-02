@@ -1,0 +1,111 @@
+.main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/joinus.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1 {
+    color:White;
+    font-size: 2cm;
+}
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    min-height: 100vh;
+    flex-direction: column;
+}
+.title {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: white;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+    margin-bottom: 3%;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    top: -160px;
+    bottom: 0;
+    left: -190px;
+    right:0;
+    width: 2px;
+    height: 380px;
+    background-color: white;
+    transform: rotate(90deg);
+}
+.title::after{
+    content: '';
+    position: absolute;
+    right: -190px;
+    top: -130px;
+    bottom: 0;
+    width: 2px;
+    height: 380px;
+    background-color: white;
+    transform: rotate(90deg);
+}
+.title h1{
+    font-size: 1cm;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.title svg{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.rule{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 80%;
+    height: 500px;
+    flex-direction: column;
+}
+.rule h1{
+    color:white;
+    font-size: 1.5vw;
+}
+.content2{
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    background-color: black;
+}
+.content2 h1{
+    font-size: 2vw;
+    color:white;
+    text-align: center;
+    z-index: 99;
+}
+.box {
+    margin-bottom: 5%;
+}
+.box1{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.box1 h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}

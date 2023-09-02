@@ -1,0 +1,166 @@
+.boat {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 100%;
+    background-color: black;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.back{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: white;
+    text-decoration: none;
+    line-height: 55px;
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    color:black;
+    font-weight: 900;
+}
+.back:active{
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+.back:hover{
+    background-color: grey;
+    color:white
+}
+.boat h1{
+    text-align: center;
+    color:white;
+    font-size: 1cm;
+}
+.boat h2{
+    text-align: center;
+    color:white;
+}
+.boat h3{
+    color:White;
+}
+.div {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.dw {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+
+}
+.dw a{
+    display: block;
+    color:black;
+    font-size: 1cm;
+    font-weight: 900;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.dw:hover{
+    background-color: blue;
+}
+.dw:hover a{
+    color:white;
+}
+
+.make{
+    border: 5px solid red;
+    width: 600px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.make h3{
+    color:white;
+    text-align: left;
+}
+.makebox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.make span{
+    color:rgb(255, 31, 31);
+}
+@media only screen and (max-width:617px){
+    .boat h2{
+        text-align: center;
+        color:white;
+        font-size: 10px;
+    }
+    .boat h3{
+        color:White;
+    }
+    .boat img{
+        max-width: 80%;
+        height: auto;
+    }
+    .make{
+        width: 400px;
+    }
+    .dw{
+        width: 200px;
+        height: 30px;
+    }
+    .dw a{
+        font-size: 20px;
+    }
+    .div iframe{
+        max-width: 80%;
+        height: 250px;
+    }
+}
+@media only screen and (max-width:407px){
+    .boat h2{
+        text-align: center;
+        color:white;
+        font-size: 8px;
+    }
+    .boat h3{
+        color:White;
+    }
+    .boat img{
+        max-width: 80%;
+        height: auto;
+    }
+    .make{
+        width: 300px;
+    }
+    .dw{
+        width: 200px;
+        height: 30px;
+    }
+    .dw a{
+        font-size: 20px;
+    }
+    .makebox h3 {
+        font-size: 10px;
+    }
+    .div iframe{
+        max-width: 80%;
+        height: 250px;
+    }
+}

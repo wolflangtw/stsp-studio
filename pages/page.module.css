@@ -1,0 +1,7 @@
+.page{
+    opacity: 0;
+}
+.page.show{
+    opacity: 1;
+    transition: 1s;
+}

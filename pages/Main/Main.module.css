@@ -1,0 +1,83 @@
+
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.img {
+    border-radius: 50%;
+}
+.img.show {
+    animation: rotate 2s ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.h1 {
+    font-size: 2cm;
+    margin-left: 5%;
+    color:white;
+}
+@media only screen and (max-width: 1170px){
+    .h1{
+        font-size: 1.5cm;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 955px){
+    .h1{
+        font-size: 1cm;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 528px){
+    .h1{
+        font-size: 0.5cm;
+    }
+    .img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.main {
+    position: relative;
+    transition: 1.5s;
+    height: 100vh;
+    background-image: url(../../public/main.webp);
+    background-size:cover;
+    background-position: center;
+}
+.main.show {
+    background-color: black;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.wave {
+    animation: waveAnimation 1s infinite;
+}

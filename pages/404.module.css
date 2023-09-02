@@ -1,0 +1,48 @@
+.error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../public/404.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-size: 3cm;
+    margin-top:30%;
+    animation: wave 0.5s infinite alternate;
+    transition: 1s;
+}
+@keyframes wave {
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.msg h2{
+    font-size: 20px;
+    margin-top: -40%;
+    color:#777;
+}
+.back{
+    cursor: pointer;
+    text-decoration: none;
+}
+.back h1 {
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.back h1:hover{
+    color:black;
+    background-color: white;;
+}

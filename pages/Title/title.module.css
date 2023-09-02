@@ -1,0 +1,78 @@
+.title {
+    background-color: rgb(30, 30, 30);
+    min-height: 200px;
+    max-height: 200px;
+    margin-top: -5%;
+    position: relative;
+}
+.title h2{
+    color:white;
+    text-align: center;
+    font-size: 1cm;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    white-space: nowrap;
+    letter-spacing: 3px;
+}
+.box1{
+    position: absolute;
+    left:10px;
+}
+.box1::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 10px;
+    bottom: -8px;
+}
+.box2{
+    position: absolute;
+    right:10px;
+    bottom: 50px;
+}
+.box2::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 10px;
+    bottom: -8px;
+    right: 0;
+}
+@media only screen and (max-width: 785px){
+    .title h2{
+        font-size: 0.5cm;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box2{
+        text-align: center;
+    }
+    .box1::before{
+        content: "";
+        position: absolute;
+        background-color: red;
+        width: 200px;
+        height: 10px;
+        bottom: -15px;
+        left:0;
+    }
+    .box2::before{
+        content: "";
+        position: absolute;
+        background-color: red;
+        width: 200px;
+        height: 10px;
+        bottom: -15px;
+        right: 0;
+    }
+}
+@media only screen and (max-width:425px){
+    .title h2 {
+        font-size:0.3cm
+    }
+}

@@ -1,0 +1,21 @@
+.new {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.new h1{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.new a {
+    color:yellow;
+    font-size: 20px;
+}
