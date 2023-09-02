@@ -47,7 +47,7 @@ export default function Join () {
                         <h1>指令師</h1>
                     </div>
                     <div className={styles.box1}>
-                        <h1>廣告宣傳部門</h1>
+                        <h1>想法提供者</h1>
                     </div>
                 </div>
             </div>
