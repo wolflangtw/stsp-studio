@@ -6,7 +6,6 @@ import { FiUsers } from 'react-icons/fi'
 import Link from 'next/link'
 import Navbar from '../Navbar/Navbar'
 const wolf = '/users/wolf.webp';
-const wwzai = '/users/wwzai.webp';
 const lei = '/users/lei.webp';
 const stare = '/users/stare.webp';
 const paper = '/users/paper.webp';
@@ -51,20 +50,13 @@ export default function About() {
                     </div>
                 </div>
                 <div className={styles.box1}>
-                    <Image loading="eager" src={wwzai} alt="wwzai" width={200} height={200}></Image>
-                    <div class={styles.info}>
-                        <h1>旺旺仔</h1>
-                        <p>暫時副指揮官、設計師</p>
-                    </div>
-                </div>
-                <div className={styles.box2}>
                     <Image loading="eager" src={lei} alt="lei_sharp" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>雷霆鋒利</h1>
                         <p>地圖創作</p>
                     </div>
                 </div>
-                <div className={styles.box1}>
+                <div className={styles.box2}>
                     <Image loading="eager" src={stare} alt="stare" width={200} height={200}></Image>
                     <div class={styles.info}>
                         <h1>黑夢</h1>
