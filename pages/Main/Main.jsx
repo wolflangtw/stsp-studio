@@ -29,7 +29,7 @@ export default function Main() {
         <div className={`${styles.main} ${bg ? styles.show : ''}`}>
             <div className={styles.head}>
                 <Image className={`${styles.img} ${rotate ? styles.show : ''} `} src={banner} alt="banner" width={300} height={300} loading="eager" />
-                <h1 className={`${styles.h1} ${styles.wave}`}>STSP 科技全方面俱樂部</h1>
+                <h1 className={`${styles.h1} ${styles.wave}`}>STSP 地圖創作團隊</h1>
             </div>
         </div>
     );
